@@ -3,7 +3,7 @@ export interface Product {
   name: string;
   price: number;
   description: string;
-  image: string;
+  // image: string;
 }
 
 export const products = [
@@ -12,22 +12,22 @@ export const products = [
     name: 'Phone XL',
     price: 799,
     description: 'A large phone with one of the best screens',
-    image:
-      'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha5/h4d/33080093343774/apple-iphone-se-2020-64gb-slim-box-krasnyj-100692722-1-Container.jpg',
+    // image:
+    //   'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha5/h4d/33080093343774/apple-iphone-se-2020-64gb-slim-box-krasnyj-100692722-1-Container.jpg',
   },
   {
     id: 2,
     name: 'Phone Mini',
     price: 699,
     description: 'A great phone with one of the best cameras',
-    image: 'kjkn',
+    // image: 'kjkn',
   },
   {
     id: 3,
     name: 'Phone Standard',
     price: 299,
     description: '',
-    image: 'kjkn',
+    // image: 'kjkn',
   },
 ];
 
